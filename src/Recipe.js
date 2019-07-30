@@ -10,7 +10,7 @@ const Recipe = ({ title, calories, image, ingredients }) => {
           <li>{ingredient.text}</li>
         ))}
       </ol>
-      <p>{Math.trunc(calories)}</p>
+      <p>Calories: {Math.trunc(calories)}</p>
       <img className={style.image} src={image} alt="" />
     </div>
   );
